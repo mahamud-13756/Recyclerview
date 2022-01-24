@@ -7,7 +7,14 @@ public class ModelClass {
     private String textview2;
     private String textview3;
 
+    ModelClass(int imageview1,String textview,String textview2,String textview3){
 
+        this.imageview1=imageview1;
+        this.textview=textview;
+        this.textview2=textview2;
+        this.textview3=textview3;
+
+    }
 
 
     public int getImageview1() {
